@@ -20,7 +20,7 @@ def recommend(movie):
 movies_dict =  pickle.load(open('movies_dict.pkl','rb'))
 movies = pd.DataFrame(movies_dict)
 
-similarity = pickle.load(open('similarity.pkl','rb'))
+similarity = pickle.load(open('https://drive.google.com/file/d/1BdF6Yr4Vii2brSMnjhd86eT7tE5USaI4/view?usp=sharing','rb'))
 
 st.title('Movie Recommender system')
 selected_movie_name = st.selectbox('How would you like to be contacted?',movies['title'].values)
